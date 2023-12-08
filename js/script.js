@@ -35,7 +35,7 @@ function addInfo(pfp, name, bio, number) {
     <div>${bio}</div>
   </div>
   <div class="number">
-    <div> <a href="tel:${number}">0${number}</a></div>
+    <div> <a href="tel:+98${number}">0${number}</a></div>
   </div>
   `;
 }
