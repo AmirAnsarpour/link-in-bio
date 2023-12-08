@@ -7,4 +7,8 @@ export const links = [
         link: "https://t.me/AmirAnsarpour",
         icon: "bi bi-telegram",
     },
+    {
+        link: "https://discord.gg/b7QcUXAd",
+        icon: "bi bi-discord",
+    },
 ]
