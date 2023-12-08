@@ -250,20 +250,3 @@ a {
 .fixed-link a:last-child {
   margin-bottom: 55px;
 }
-#my-name {
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.71);
-  padding: 10px;
-  backdrop-filter: blur(5px);
-  font-size: 13px;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-}
-#my-name a {
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-}
