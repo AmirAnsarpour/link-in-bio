@@ -220,9 +220,8 @@ a {
   height: 50px;
 }
 .fixed-link a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  line-height: 61px;
   margin: 0.8rem auto;
   position: relative;
   left: 0;
@@ -247,6 +246,9 @@ a {
   color: rgba(241, 241, 241, 0.7);
   text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
   background-color: rgba(0, 0, 0, 0.3);
+}
+.fixed-link a:last-child {
+  margin-bottom: 55px;
 }
 #my-name {
   position: fixed;
