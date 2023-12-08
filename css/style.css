@@ -73,7 +73,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #000000;
-  overflow: hidden;
+  overflow: scroll;
 }
 main {
   display: flex;
@@ -223,7 +223,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0.6rem auto;
+  margin: 0.8rem auto;
   position: relative;
   left: 0;
   right: 0;
@@ -250,9 +250,12 @@ a {
 }
 #my-name {
   position: fixed;
+  background-color: rgba(0, 0, 0, 0.71);
+  padding: 10px;
+  backdrop-filter: blur(5px);
   font-size: 13px;
   left: 0;
-  bottom: 1%;
+  bottom: 0;
   width: 100%;
   color: white;
   text-align: center;
